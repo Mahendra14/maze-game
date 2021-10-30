@@ -31,6 +31,15 @@ window.addEventListener("mousemove", (e) => {
 })
 
 nextButton.addEventListener("click", () => {
-    console.log("you clicked the button");
+    //style on level one 
+    levelOne.style.display = "none";
+    //style on the button
+    nextButton.style.opacity = 0;
+    nextButton.style.pointerEvents = "none";
+    //style on the level 2
+    levelTwo.style.display = "block";
+    //ui- based classes styling and values for next level
+    uiLevel.textContent = "Level 2";
+    uiMessage.textContent = "One more to go...";
 
 })
