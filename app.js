@@ -11,8 +11,9 @@ const spookyPicture = document.querySelector(".spooky-picture");
 const screamSound = document.querySelector(".scream-sound");
 
 const collisionCheck = (value) => {
-    if (value === "maze-border") alert("You lost...try again.");
+    if (value === "maze-border") alert("You lost...try again.[press that refresh I say!]");
     if (value === "finish") {
+        
 
     }
     if (value === "end-game") {
