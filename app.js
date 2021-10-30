@@ -13,7 +13,10 @@ const screamSound = document.querySelector(".scream-sound");
 const collisionCheck = (value) => {
     if (value === "maze-border") alert("You lost...try again.[press that refresh I say!]");
     if (value === "finish") {
-        
+        nextButton.style.opacity = 1;
+        nextButton.style.pointerEvents = "all";
+        levelOne.style.pointerEvents = "none";
+
 
     }
     if (value === "end-game") {
@@ -28,5 +31,6 @@ window.addEventListener("mousemove", (e) => {
 })
 
 nextButton.addEventListener("click", () => {
+    console.log("you clicked the button");
 
 })
