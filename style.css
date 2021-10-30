@@ -27,3 +27,12 @@ body {
 .level-two{
     display: none;
 }
+
+.ui-level{
+    font-size: 3rem;
+}
+
+.ui-message{
+    font-size: 1.5rem;
+    padding-top: 1.5rem;
+}
