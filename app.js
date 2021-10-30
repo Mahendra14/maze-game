@@ -16,11 +16,11 @@ const collisionCheck = (value) => {
         nextButton.style.opacity = 1;
         nextButton.style.pointerEvents = "all";
         levelOne.style.pointerEvents = "none";
-
-
     }
     if (value === "end-game") {
-
+        screamSound.play();
+        spookyPicture.style.display = "block";
+        document.body.style.background = "black";
     }
 
 }
