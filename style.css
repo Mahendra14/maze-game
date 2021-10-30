@@ -8,6 +8,15 @@ body {
     font-family: "Poppins", sans-serif;
   }
 
+  .description{
+      min-height: 20vh;
+      /*unless u want it to be row */
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
   .game{
       min-height: 80vh;
       display: flex;
